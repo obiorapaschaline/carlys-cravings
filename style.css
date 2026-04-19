@@ -1,0 +1,82 @@
+body {
+   margin: 0;
+   font-family: Poppins, Quicksand, sans-serif;
+   background-color: #FFF4E6;
+   color: #5A3E36;
+}
+
+header{
+    text-align: center;
+    padding: 30px;
+    background-color: #F7C8D0;
+    color: rgb(85, 18, 9);
+}
+
+.hero{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2{
+    color: rgb(85, 18, 9);
+}
+
+.hero button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #E94B6A;
+    color: rgb(85, 18, 9);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero button:hover{
+    background-color: aliceblue;
+}
+
+.about{
+    padding: 40px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #F7C8D0;
+    color: rgb(85, 18, 9);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.item{
+    background: #fff0f5;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 300px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0,1);
+    
+}
+
+.item img{
+    width: 100%;
+    border-radius: 15px;
+    height: auto;
+}
+
+.item h3{
+    margin: 10px 0 5px;
+    color: rgb(85, 18, 9);
+}
+
+
